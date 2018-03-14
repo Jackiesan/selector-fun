@@ -116,7 +116,7 @@ main > section:last-child {
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
 
-body {
+article:nth-child(2n+1) .post-content{
   background-color: #DCDCDC;
 }
 
